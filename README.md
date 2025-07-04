@@ -1,8 +1,8 @@
 # edi_viewer_app
 
 Example:
-==========
 
+```
 ISA*00*     *00*     *ZZ*SUBMITTER ID     *ZZ*RECEIVER ID     *210101*1253*^*00501*000000001*0*P*:~
 GS*HC*SUBMITTER ID*RECEIVER ID*20210101*1253*1*X*005010X222A1~
 ST*837*0001*005010X222A1~
@@ -31,5 +31,6 @@ DTP*472*D8*20210101~
 SE*41*0001~
 GE*1*1~
 IEA*1*000000001~
+```
 
-![alt text](https://github.com/biranchi2018/edi_viewer_app/blob/main/EDI_Summary.png?raw=true)
+![EDI 837 Transaction](https://raw.githubusercontent.com/biranchi2018/edi_viewer_app/refs/heads/main/EDI_Summary.png)
