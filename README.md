@@ -1,6 +1,13 @@
-# edi_viewer_app
+# EDI 837 Transaction Viewer
 
-Example:
+
+Running the App:
+```
+docker build -t edi_viewer_app .
+docker run -it -p 5000:5000 edi_viewer_app 
+```
+
+Sample Usage:
 
 ```
 ISA*00*     *00*     *ZZ*SUBMITTER ID     *ZZ*RECEIVER ID     *210101*1253*^*00501*000000001*0*P*:~
@@ -34,3 +41,6 @@ IEA*1*000000001~
 ```
 
 ![EDI 837 Transaction](https://raw.githubusercontent.com/biranchi2018/edi_viewer_app/refs/heads/main/EDI_Summary.png)
+
+
+
