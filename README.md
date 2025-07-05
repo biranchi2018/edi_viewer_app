@@ -1,7 +1,7 @@
 # EDI 837 Transaction Viewer
 
 
-Running the App:
+Building the App:
 ```
 docker build -t edi_viewer_app .
 docker run -it -p 5000:5000 edi_viewer_app 
